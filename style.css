@@ -1,0 +1,116 @@
+/* Universal settings */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+/* Background */
+body{
+    background-color: #1d3557;
+}
+
+/* Main heading */
+#main-heading{
+    color: #e63946;
+    text-align: center;
+    line-height: 9rem;
+    font-size: 2.7rem;
+}
+
+/* Images */
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Images behaviour on hover */
+img:hover{
+    height: 280px;
+    width: 280px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* Game container which holds the images and there divs */
+.game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 3rem;
+}
+
+/* divs for the images of rock, paper and scissor */
+.option{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game score display */
+.game-score{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1.5rem;
+    color: #a8dadc;
+    margin-top: 4rem;
+}
+
+/* Game message display */
+.message{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #f1faee;
+}
+
+/* Try again button to play the game again */
+#try-again-button{
+    height: 60px;
+    width: 200px;
+    border: none;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #a8dadc;
+    color: #1d3557;
+}
+
+/* Button behaviour on hover */
+#try-again-button:hover{
+    opacity: 0.5;
+    height: 70px;
+    width: 210px;
+    cursor: pointer;
+}
+
+/* Github link of the creator */
+.github-link{
+    text-align: center;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.github-link a{
+    text-decoration: none;
+    color: #457b9d;
+}
+
+/* Used to hide elements and there display on certain actions*/
+.hide{
+    display: none;
+}

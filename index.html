@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Play:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Main Heading for the game -->
+        <h1 id="main-heading">ROCK PAPER SCISSOR</h1>
+    </header>
+
+    <main>
+        <!-- Game container holding images -->
+        <div class="game-container">
+            <!-- Divs and images for rock, paper and scissor -->
+            <div class="option" id="rock"><img src="images/rock.png" alt="rock"></div>
+            <div class="option" id="paper"><img src="images/paper.png" alt="paper"></div>
+            <div class="option" id="scissor"><img src="images/scissor.png" alt="scissor"></div>
+        </div>
+
+        <!-- Game score -->
+        <div class="game-score">
+            <p>Player Score:<p id="player-score">0</p></p>
+            <p>Computer Score:<p id="computer-score">0</p></p>
+        </div>
+
+        <!-- Game message for winning and loosing -->
+        <div class="message">
+            <p id="game-message"><span></span></p>
+            <!-- Try again button for playing the game again -->
+            <button class="hide" id="try-again-button">Try Again</button>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Github link of the creator -->
+       <div class="github-link"><a href="https://github.com/techwithdani" target="_blank">@techwithdani</a></div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
