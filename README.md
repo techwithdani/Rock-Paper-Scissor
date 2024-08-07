@@ -19,7 +19,3 @@ This is a simple Rock-Paper-Scissors game implemented using HTML, CSS, and JavaS
 2. Score tracking for both the player and computer.
 3. Endgame detection when one player reaches a score of 10.
 4. Reset functionality to play the game again.
-
-### Note
-
-Display: 1920 x 1080.
